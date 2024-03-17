@@ -1,0 +1,30 @@
+---
+import { languages } from "../i18n/ui";
+// import { useTranslatedPath } from "../i18n/utils";
+// import { Lang } from "../lib/languages/es";
+
+import {
+  getLangFromUrl,
+  useTranslations,
+  useTranslatedPath,
+} from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const translatePath = useTranslatedPath(lang);
+---
+
+<div class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+    >{t("nav.language")}</a
+  >
+  <div class="dropdown-menu fade-up m-0">
+    {
+      Object.entries(languages).map(([lang, label]) => (
+        <a class="dropdown-item" href={translatePath("/", lang)}>
+          {label}
+        </a>
+      ))
+    }
+  </div>
+</div>
