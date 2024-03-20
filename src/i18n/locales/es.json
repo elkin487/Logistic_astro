@@ -1,17 +1,96 @@
 {
   "CAROUSEL": {
     "TITLE": "Soliciones de Transporte & Logistica",
-    "1": {
-      "TITLE": "",
-      "LOGISTIC": "",
-      "BODY": "",
-      "READ_MORE": ""
+    "C1": {
+      "TITLE": "Soluciones Integrales",
+      "BODY": "Su mercancia en las mejores condiciones, en el menor tiempo posible y al mejor costo",
+      "READ_MORE": "LEER MAS"
     },
-    "2": {
-      "TITLE": "",
-      "LOGISTIC": "",
-      "BODY": "",
-      "READ_MORE": ""
+    "C2": {
+      "TITLE": "Soluciones De Almacenamiento",
+      "BODY": "Eficiencia, Compromiso, Seguridad",
+      "READ_MORE": "LEER MAS"
     }
+  },
+  "ABOUT": {
+    "ABOUT_S": {
+      "TITLE": "Sobre nosotros",
+      "SUB_TITLE": "Soluciones Rápidas de Transporte y Logística",
+      "BODY": "SLOC es una empresa líder en el sector del transporte, con más de [Número] años de experiencia en el mercado. Ofrecemos una amplia gama de soluciones de transporte terrestre, marítimo y aéreo para satisfacer las necesidades de nuestros clientes.",
+      "GLOVAL_COVERGA": "Cobertura global",
+      "GLOVAL_COVERGA_BODY": "Contamos con una amplia red de partners en todo el mundo que nos permite ofrecerle un servicio de transporte puerta a puerta sin complicaciones. ",
+      "ON_TIME_DELIVERY": "El tiempo de entrega",
+      "ON_TIME_DELIVERY_BODY": "No importa a dónde necesite enviar sus productos, SLOC puede ayudarle a llegar allí."
+    },
+    "SOME_FACTS": {
+      "TITLE": "Algunos echos",
+      "SUB_TITLE": "Lugar n.º 1 para gestionar todos sus envíos",
+      "BODY": "En SLOC no solo nos dedicamos a conectar el mundo a través del transporte, sino que también nos esforzamos por ser una empresa innovadora y líder en la industria. Aquí te compartimos algunos datos interesantes que quizás no sabías sobre nosotros:",
+      "CALL": "Llama para cualquier consulta!"
+    },
+    "OUR_FEATURES": {
+      "TITLE": "Nuestras Características",
+      "SUB_TITLE": "Somos una empresa de logística de confianza desde [Año].",
+      "ITEMS": {
+        "WOLDWIDE_SERVICE": {
+          "TITLE": "Servicio mundial",
+          "BODY": "Servicio de logística a nivel mundial: Conectando el mundo a su negocio"
+        },
+        "ON_TIME_DELIVERY": {
+          "TITLE": "Tiempo de entrega",
+          "BODY": "Tiempo de entrega: Su mercancía donde la necesita, cuando la necesita"
+        },
+        "SUPPORT": {
+          "TITLE": "Soporte 24/7",
+          "BODY": "Esto significa que puede contactarnos en cualquier momento, sin importar la zona horaria en la que se encuentre"
+        }
+      }
+    }
+  },
+  "SERVICES": {
+    "OUR_SERVICES": {
+      "TITLE": "Nuestros Servicios",
+      "SUB_TITLE": "Explora Nuestros Servicios",
+      "ITEMS": {
+        "AIR": {
+          "TITLE": "Transporte Aéreo",
+          "BODY": "Nuestro modo de transporte más rápido, ideal para el translado de mercancias a largas distancias."
+        },
+        "OCEAN": {
+          "TITLE": "Carga Maritima",
+          "BODY": "Contanmos con el translado a traves del mar caracterizado por su capacidad, bajo costo, mayor capacidad de carga y flexiilidad de mercancias."
+        },
+        "ROAD": {
+          "TITLE": "Trnsporte Por Carretera",
+          "BODY": "En este modo permite llegar a lugares remotos y la capacidad de adaptarse a diferentes nesesidades de transporte."
+        },
+        "CLEARANCE": {
+          "TITLE": "Despacho De Aduana",
+          "BODY": "Contamos con un protocolo para la entrada y salida de las mercancias durante una operación de comercio."
+        },
+        "WAREHOUSE": {
+          "TITLE": "Soluciones De Almacenamiento",
+          "BODY": "tenemos sistemas y tecnologias que nos ayudan a guardar y organizar mercancias, productos o materiales."
+        },
+        "INVENTORY": {
+          "TITLE": "Administracion De Inventario",
+          "BODY": "Manejamos un sistema de distribución donde las unidades logísticas son recibidas en una plataforma de alistamiento y no son almacenadas si no preparadas para ser enviadas de manera inmediata."
+        }
+      }
+    },
+    "TESTIMONIAL": {
+      "TITLE": "Testimonios",
+      "SUB_TITLE": "Nuestros Clientes Dicen"
+    }
+  },
+  "CONTACT": {
+    "GET_IN_TOUCH": {
+      "TITLE": "CONTACTO",
+      "SUB_TITLE": "Contacto Para Cualquier Consulta"
+    }
+  },
+  "TEAM": {
+    "TITLE": "EQUIPO",
+    "SUB_TITLE": "Nuestros expertos"
   }
 }

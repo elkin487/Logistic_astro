@@ -1,5 +1,8 @@
 ---
 import { ASSETS } from "../lib/constants";
+import { getI18N } from "../i18n";
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
 ---
 
 <!-- Contact Start -->
@@ -7,69 +10,62 @@ import { ASSETS } from "../lib/constants";
   <div class="container contact-page py-5 px-lg-0">
     <div class="row g-5 mx-lg-0">
       <div class="col-md-6 contact-form wow fadeIn" data-wow-delay="0.1s">
-        <h6 class="text-secondary text-uppercase">Get In Touch</h6>
-        <h1 class="mb-4">Contact For Any Query</h1>
-        <p class="mb-4">
-          The contact form is currently inactive. Get a functional and working
-          contact form with Ajax & PHP in a few minutes. Just copy and paste the
-          files, add a little code and you're done. <a
-            href="https://htmlcodex.com/contact-form">Download Now</a
-          >.
-        </p>
-        <div class="bg-light p-4">
-          <form>
-            <div class="row g-3">
-              <div class="col-md-6">
-                <div class="form-floating">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    placeholder="Your Name"
-                  />
-                  <label for="name">Your Name</label>
+        <h6 class="text-secondary text-uppercase">
+          {i18n.CONTACT.GET_IN_TOUCH.TITLE}
+        </h6>
+        <h1 class="mb-4">{i18n.CONTACT.GET_IN_TOUCH.SUB_TITLE}</h1>
+
+        <!-- Card -->
+        <div class="mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-3">
+              <img
+                style="width: 80px; margin-top:10%; margin-left: 25%;"
+                class="rounded-circle"
+                src="/public/img/testimonial-1.jpg"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h6 class="card-title">Elkin Moreno</h6>
+                <div class="no-p-margin p">
+                  <p>Desarrollador</p>
+                  <a
+                    type="button"
+                    class="btn btn-white"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="Cartagena Manga"
+                  >
+                    <i class="fa fa-map-marker-alt me-3"></i>
+                  </a>
+                  <a
+                    type="button"
+                    class="btn btn-white"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="3162543022"
+                  >
+                    <i class="fa fa-phone-alt me-3"></i>
+                  </a>
+                  <a
+                    type="button"
+                    class="btn btn-white"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="elkinjose487@gmail.com"
+                  >
+                    <i class="fa fa-envelope me-3"></i>
+                  </a>
+                  <!-- <i class="fa fa-map-marker-alt me-3"></i> -->
+                  <!-- <i class="fa fa-phone-alt me-3"></i> -->
+                  <!-- <i class="fa fa-envelope me-3"></i> -->
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-floating">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    placeholder="Your Email"
-                  />
-                  <label for="email">Your Email</label>
-                </div>
-              </div>
-              <div class="col-12">
-                <div class="form-floating">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="subject"
-                    placeholder="Subject"
-                  />
-                  <label for="subject">Subject</label>
-                </div>
-              </div>
-              <div class="col-12">
-                <div class="form-floating">
-                  <textarea
-                    class="form-control"
-                    placeholder="Leave a message here"
-                    id="message"
-                    style="height: 100px"></textarea>
-                  <label for="message">Message</label>
-                </div>
-              </div>
-              <div class="col-12">
-                <button class="btn btn-primary w-100 py-3" type="submit"
-                  >Send Message</button
-                >
               </div>
             </div>
-          </form>
+          </div>
         </div>
+        <!-- Card End -->
       </div>
       <div class="col-md-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s">
         <div class="position-relative h-100">
@@ -86,4 +82,14 @@ import { ASSETS } from "../lib/constants";
     </div>
   </div>
 </div>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+></script>
 <!-- Contact End -->
+<style>
+  /* Estilo personalizado para eliminar los márgenes entre los párrafos */
+  .no-p-margin p {
+    margin-bottom: 0; /* Eliminar el margen inferior */
+  }
+</style>

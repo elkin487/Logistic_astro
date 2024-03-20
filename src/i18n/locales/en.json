@@ -1,17 +1,96 @@
 {
   "CAROUSEL": {
-    "TITLE": "Transport & Logistics Solution",
-    "1": {
-      "TITLE": "",
-      "LOGISTIC": "",
-      "BODY": "",
-      "READ_MORE": ""
+    "TITLE": "Transport and logistics solutions",
+    "C1": {
+      "TITLE": "integral solutions",
+      "BODY": "Your merchandise in the best conditions, in the shortest possible time and at the best cost",
+      "READ_MORE": "READ MORE"
     },
-    "2": {
-      "TITLE": "",
-      "LOGISTIC": "",
-      "BODY": " Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diamno. Kasd rebum ipsum et diam justo clita et kasd rebum seaelitr.",
-      "READ_MORE": ""
+    "C2": {
+      "TITLE": "Storage solutions",
+      "BODY": "Efficiency, Commitment, Security",
+      "READ_MORE": "READ MORE"
     }
+  },
+  "ABOUT": {
+    "ABOUT_S": {
+      "TITLE": "About us",
+      "SUB_TITLE": "Fast transportation and logistics solutions",
+      "BODY": "SLOC is a leading company in the transportation sector, with over 5 years of experience in the market. We offer a wide range of land, sea, and air transportation solutions to meet our clients' needs.",
+      "GLOVAL_COVERGA": "Global coverage",
+      "GLOVAL_COVERGA_BODY": "We have an extensive network of partners worldwide that allows us to offer you a hassle-free door-to-door transportation service.",
+      "ON_TIME_DELIVERY": "Delivery time",
+      "ON_TIME_DELIVERY_BODY": "No matter where you need to send your products, SLOC can help you get there."
+    },
+    "SOME_FACTS": {
+      "TITLE": "Some facts",
+      "SUB_TITLE": "Number one place to manage all your shipments.",
+      "BODY": "At SLOC, we not only focus on connecting the world through transportation but also strive to be an innovative and industry-leading company. Here are some interesting facts you might not know about us:",
+      "CALL": "Call for any inquiries!"
+    },
+    "OUR_FEATURES": {
+      "TITLE": "Our Features",
+      "SUB_TITLE": "We have been a trusted logistics company since [Year].",
+      "ITEMS": {
+        "WOLDWIDE_SERVICE": {
+          "TITLE": "Worldwide service",
+          "BODY": "Worldwide logistics service: Connecting the world to your business"
+        },
+        "ON_TIME_DELIVERY": {
+          "TITLE": "Delivery time",
+          "BODY": "Delivery time: Your merchandise where you need it, when you need it."
+        },
+        "SUPPORT": {
+          "TITLE": "24/7 Support",
+          "BODY": "This means you can contact us at any time, regardless of the time zone you're in."
+        }
+      }
+    }
+  },
+  "SERVICES": {
+    "OUR_SERVICES": {
+      "TITLE": "Our Services",
+      "SUB_TITLE": "Explore Our Services",
+      "ITEMS": {
+        "AIR": {
+          "TITLE": "Air Transportation",
+          "BODY": "Our fastest mode of transportation, ideal for transferring goods over long distances."
+        },
+        "OCEAN": {
+          "TITLE": "Maritime cargo",
+          "BODY": "We offer maritime transportation characterized by its capacity, low cost, higher cargo capacity, and flexibility of goods."
+        },
+        "ROAD": {
+          "TITLE": "Road Transportation",
+          "BODY": "This mode allows reaching remote locations and the ability to adapt to different transportation needs."
+        },
+        "CLEARANCE": {
+          "TITLE": "Customs Clearance",
+          "BODY": "We have a protocol for the entry and exit of goods during a trade operation."
+        },
+        "WAREHOUSE": {
+          "TITLE": "Storage Solutions",
+          "BODY": "We have systems and technologies that help us store and organize goods, products, or materials."
+        },
+        "INVENTORY": {
+          "TITLE": "Inventory Management",
+          "BODY": "We operate a distribution system where logistic units are received at a staging platform and not stored but prepared for immediate shipment."
+        }
+      }
+    },
+    "TESTIMONIAL": {
+      "TITLE": "Testimonials",
+      "SUB_TITLE": "Our Clients Say"
+    }
+  },
+  "CONTACT": {
+    "GET_IN_TOUCH": {
+      "TITLE": "CONTACT",
+      "SUB_TITLE": "Contact for Any Inquiries"
+    }
+  },
+  "TEAM": {
+    "TITLE": "TEAM",
+    "SUB_TITLE": "Our Experts"
   }
 }
