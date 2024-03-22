@@ -1,11 +1,17 @@
 ---
 interface Props {
-  title: string;
+  route: string;
 }
 
-const { title } = Astro.props;
-
+const { route } = Astro.props;
+const isUrlInCurrentLink = Astro.url.pathname == route;
+// const isUrlInCurrentLink = Astro.url.pathname == route;
 ---
 
-
-<a href="/" class="nav-item nav-link active"></a>
+<!-- <a href={route} class=`nav-item nav-link ${isUrlInCurrentLink? 'underline': 'none'` >{title}</a> -->
+<a
+  href={route}
+  class=`nav-item nav-link ${isUrlInCurrentLink? 'active': 'none'}`
+>
+  <slot />
+</a>
