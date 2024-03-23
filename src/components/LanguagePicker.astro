@@ -2,6 +2,7 @@
 import { languages } from "../i18n/ui";
 // import { useTranslatedPath } from "../i18n/utils";
 // import { Lang } from "../lib/languages/es";
+import Links from "../components/Links.astro";
 
 import {
   getLangFromUrl,
@@ -14,7 +15,18 @@ const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
 ---
 
-<div class="nav-item dropdown">
+{
+  Object.entries(languages).map(([lang, label]) => (
+    // <a class="dropdown-item" href={translatePath("/", lang)}>
+    //   {label}
+    <Links route={translatePath("/", lang)}>
+      <img src={label} style="width: 40px; height: 25px;" />
+    </Links>
+    // </a>
+  ))
+}
+
+<!-- <div class="nav-item dropdown">
   <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
     >{t("nav.language")}</a
   >
@@ -27,5 +39,5 @@ const translatePath = useTranslatedPath(lang);
       ))
     }
   </div>
-</div>
+</div> -->
 <!-- Servicios Logisticas de operaciones SAC-->

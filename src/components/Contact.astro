@@ -6,65 +6,70 @@ const i18n = getI18N({ currentLocale });
 ---
 
 <!-- Contact Start -->
-<div class="container-fluid overflow-hidden py-5 px-lg-0">
+<div class="container overflow-hidden py-5 px-lg-0">
   <div class="container contact-page py-5 px-lg-0">
-    <div class="row g-5 mx-lg-0">
-      <div class="col-md-6 contact-form wow fadeIn" data-wow-delay="0.1s">
-        <h6 class="text-secondary text-uppercase">
-          {i18n.CONTACT.GET_IN_TOUCH.TITLE}
-        </h6>
-        <h1 class="mb-4">{i18n.CONTACT.GET_IN_TOUCH.SUB_TITLE}</h1>
+    <div class="row mx-lg-0">
+      <h6 class="text-secondary text-center">
+        {i18n.CONTACT.GET_IN_TOUCH.TITLE}
+      </h6>
+      <h1 class="text-center">
+        {i18n.CONTACT.GET_IN_TOUCH.SUB_TITLE}
+      </h1>
+    </div>
 
+    <div class="row g-5 mx-lg-0 py-3">
+      <div class="col-md-3 contact-form wow fadeIn" data-wow-delay="0.1s">
         <!-- Card -->
-        <div class="mb-3">
-          <div class="row no-gutters">
-            <div class="col-md-3">
-              <img
-                style="width: 80px; margin-top:10%; margin-left: 25%;"
-                class="rounded-circle"
-                src="/public/img/testimonial-1.jpg"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h6 class="card-title">Elkin Moreno</h6>
-                <div class="no-p-margin p">
-                  <p>Desarrollador</p>
-                  <a
-                    type="button"
-                    class="btn btn-white"
-                    data-bs-toggle="tooltip"
-                    data-bs-placement="top"
-                    title="Cartagena Manga"
-                  >
-                    <i class="fa fa-map-marker-alt me-3"></i>
-                  </a>
-                  <a
-                    type="button"
-                    class="btn btn-white"
-                    data-bs-toggle="tooltip"
-                    data-bs-placement="top"
-                    title="3162543022"
-                  >
-                    <i class="fa fa-phone-alt me-3"></i>
-                  </a>
-                  <a
-                    type="button"
-                    class="btn btn-white"
-                    data-bs-toggle="tooltip"
-                    data-bs-placement="top"
-                    title="elkinjose487@gmail.com"
-                  >
-                    <i class="fa fa-envelope me-3"></i>
-                  </a>
-                  <!-- <i class="fa fa-map-marker-alt me-3"></i> -->
-                  <!-- <i class="fa fa-phone-alt me-3"></i> -->
-                  <!-- <i class="fa fa-envelope me-3"></i> -->
-                </div>
-              </div>
-            </div>
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+          <div class="card-body text-center">
+            <h5 class="card-title text-white">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+            </h5>
+            <h6 class="text-white">NUESTRA OFICINA PRINCIPAL</h6>
+            <p class="card-text">
+              {ASSETS.address}
+            </p>
           </div>
         </div>
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+          <div class="card-body text-center">
+            <h5 class="card-title text-white">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+            </h5>
+            <h6 class="text-white">NÚMERO DE TELÉFONO</h6>
+            <p class="card-text">
+              {ASSETS.number}
+            </p>
+          </div>
+        </div>
+        <!-- Card End -->
+      </div>
+      <div class="col-md-3 contact-form wow fadeIn" data-wow-delay="0.1s">
+        <!-- Card -->
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+          <div class="card-body text-center">
+            <h5 class="card-title text-white">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </h5>
+            <h6 class="text-white">CORREO ELECTRÓNICO</h6>
+            <p class="card-text">
+              {ASSETS.email}
+            </p>
+          </div>
+        </div>
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title text-white text-center">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+            </h5>
+            <h6 class="text-white text-center">NUESTRA OFICINA PRINCIPAL</h6>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+
         <!-- Card End -->
       </div>
       <div class="col-md-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s">
