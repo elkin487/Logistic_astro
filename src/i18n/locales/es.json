@@ -15,12 +15,12 @@
   "ABOUT": {
     "ABOUT_S": {
       "TITLE": "Sobre nosotros",
-      "SUB_TITLE": "Soluciones Rápidas de Transporte y Logística",
-      "BODY": "SLOC es una empresa líder en el sector del transporte, con más de [Número] años de experiencia en el mercado. Ofrecemos una amplia gama de soluciones de transporte terrestre, marítimo y aéreo para satisfacer las necesidades de nuestros clientes.",
-      "GLOVAL_COVERGA": "Cobertura global",
-      "GLOVAL_COVERGA_BODY": "Contamos con una amplia red de partners en todo el mundo que nos permite ofrecerle un servicio de transporte puerta a puerta sin complicaciones. ",
-      "ON_TIME_DELIVERY": "El tiempo de entrega",
-      "ON_TIME_DELIVERY_BODY": "No importa a dónde necesite enviar sus productos, SLOC puede ayudarle a llegar allí."
+      "SUB_TITLE": "¿Quiénes somos?",
+      "BODY": "Somos una empresa colombiana dedicada al comercio internacional, logística, comercialización, importación, exportación de productos y cargas de proyecto, en los sectores agrícola, industrial, servicio y automotriz, constituida en el año 2016. Contamos con un recurso humano calificado con más de 20 años de experiencia, dedicados a satisfacer las necesidades de consumo de nuestros clientes en sus distintas áreas y proyectos especiales en diferentes ciudades del mundo.",
+      "GLOVAL_COVERGA": "Misión",
+      "GLOVAL_COVERGA_BODY": "Facilitar soluciones logísticas basadas en la excelencia operacional, generando valores agregados dentro de la cadena de abastecimiento a todo nuestro equipo humano, clientes y aliados estratégicos.",
+      "ON_TIME_DELIVERY": "Visión",
+      "ON_TIME_DELIVERY_BODY": "Ser reconocidos como líderes en soluciones aduaneras, destacándonos por nuestra excelencia en servicio al cliente, innovación tecnológica y compromiso con la integridad en cada transacción. Nos esforzamos por simplificar los procesos aduaneros y contribuir al éxito de nuestros clientes en el comercio internacional."
     },
     "SOME_FACTS": {
       "TITLE": "Algunos echos",
@@ -29,20 +29,32 @@
       "CALL": "Llama para cualquier consulta!"
     },
     "OUR_FEATURES": {
-      "TITLE": "Nuestras Características",
-      "SUB_TITLE": "Somos una empresa de logística de confianza desde 6.",
+      "TITLE": "Valores",
+      "SUB_TITLE": "Somos una empresa de logística de confianza desde hace 6 años.",
       "ITEMS": {
-        "WOLDWIDE_SERVICE": {
-          "TITLE": "Servicio mundial",
-          "BODY": "Servicio de logística a nivel mundial: Conectando el mundo a su negocio"
+        "INTEGRITY": {
+          "TITLE": "Integridad",
+          "BODY": "Actuamos con honestidad y transparencia en todas nuestras operaciones, cumpliendo con las regulaciones y éticas."
         },
-        "ON_TIME_DELIVERY": {
-          "TITLE": "Tiempo de entrega",
-          "BODY": "Tiempo de entrega: Su mercancía donde la necesita, cuando la necesita"
+        "EXCELLENCE": {
+          "TITLE": "Excelencia",
+          "BODY": "Nos esforzamos por ofrecer un servicio excepcional, brindando soluciones adaptadas a las necesidades de cada cliente."
         },
-        "SUPPORT": {
-          "TITLE": "Soporte 24/7",
-          "BODY": "Esto significa que puede contactarnos en cualquier momento, sin importar la zona horaria en la que se encuentre"
+        "INNOVATION": {
+          "TITLE": "Innovación",
+          "BODY": "Buscamos constantemente nuevas tecnologías y procesos para mejorar la eficiencia y la calidad de nuestros servicios, manteniéndonos a la vanguardia del sector"
+        },
+        "COLLABORATION": {
+          "TITLE": "Colaboración",
+          "BODY": "Trabajamos en equipo, tanto dentro de nuestra empresa como con nuestros clientes y socios comerciales, para lograr resultados óptimos y superar desafíos de manera conjunta."
+        },
+        "QUALITY": {
+          "TITLE": "Calidad",
+          "BODY": ": Buscamos la excelencia en todo lo que hacemos, asegurando la precisión, la puntualidad y la confiabilidad en cada proceso aduanero que gestionamos."
+        },
+        "ORIENTATION": {
+          "TITLE": "Orientación al cliente",
+          "BODY": ": Ponemos las necesidades y los intereses de nuestros clientes en el centro de nuestras operaciones, siendo receptivos a sus comentarios y sugerencias."
         }
       }
     }
