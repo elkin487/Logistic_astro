@@ -30,7 +30,7 @@
     },
     "OUR_FEATURES": {
       "TITLE": "Nuestras Características",
-      "SUB_TITLE": "Somos una empresa de logística de confianza desde [Año].",
+      "SUB_TITLE": "Somos una empresa de logística de confianza desde 6.",
       "ITEMS": {
         "WOLDWIDE_SERVICE": {
           "TITLE": "Servicio mundial",
@@ -75,6 +75,10 @@
         "INVENTORY": {
           "TITLE": "Administracion De Inventario",
           "BODY": "Manejamos un sistema de distribución donde las unidades logísticas son recibidas en una plataforma de alistamiento y no son almacenadas si no preparadas para ser enviadas de manera inmediata."
+        },
+        "SUPPORT" : {
+          "TITLE": "Consultoria",
+          "BODY": "Optimiza tu cadena de suministro con nuestra consultoría en transporte. Ofrecemos soluciones personalizadas para mejorar la eficiencia y reducir costos en tus operaciones logísticas."
         }
       }
     },
@@ -92,5 +96,13 @@
   "TEAM": {
     "TITLE": "EQUIPO",
     "SUB_TITLE": "Nuestros expertos"
+  },
+  "BODY_SERVICES": {
+    "WAREHOUSE": "Descubre nuestro almacén, el núcleo de la logística eficiente. Aquí, la tecnología y la experiencia se unen para gestionar tu inventario con precisión milimétrica. Con sistemas avanzados y un equipo altamente capacitado, ofrecemos visibilidad total y seguridad sin igual para tus productos. Desde el almacenamiento hasta la distribución, estamos aquí para simplificar tu cadena de suministro y llevar tu negocio al siguiente nivel. Confía en nosotros para una logística sin problemas y un servicio excepcional",
+    "MARITIME": "Sumérgete en el mundo del transporte marítimo con nosotros, donde cada envío se convierte en una experiencia de confianza y eficiencia. Con una flota moderna y diversificada, estamos equipados para gestionar cargas de todos los tamaños y tipos, desde contenedores estándar hasta proyectos de carga pesada y mercancías especiales. Nuestro compromiso con la seguridad y la excelencia es primordial. Nos adherimos a los más rigurosos estándares de la industria y empleamos tecnología de vanguardia para supervisar y gestionar cada fase del viaje marítimo. Desde la planificación de la ruta hasta la prevención de riesgos y la gestión de incidentes, nos dedicamos a garantizar que tu carga llegue a su destino de manera segura y puntual.",
+    "CONSULTING": "En el complejo mundo de la logística, cada decisión cuenta. Desde la gestión de inventarios hasta la optimización de rutas de transporte, cada aspecto de tu cadena de suministro tiene un impacto directo en la eficiencia y rentabilidad de tu negocio. Es por eso que ofrecemos servicios de asesoría logística personalizados para ayudarte a superar desafíos y alcanzar tus objetivos comerciales. Nuestro equipo de expertos en logística está aquí para ofrecerte orientación estratégica en todas las áreas críticas de tu operación. Ya sea que necesites ayuda para mejorar la eficiencia de tu almacén, optimizar tus procesos de distribución o implementar tecnología de vanguardia en tu cadena de suministro, estamos aquí para ayudarte a navegar por las complejidades del mundo logístico.",
+    "GROUND": "Descubre la excelencia en transporte terrestre con nosotros. Nuestra empresa se enorgullece de ofrecer soluciones logísticas integrales y eficientes que cubren todas tus necesidades de transporte por carretera. Con una flota moderna y diversificada, estamos preparados para manejar cargas de cualquier tamaño y tipo. Desde envíos pequeños hasta cargas completas, podemos adaptarnos a tus necesidades específicas y garantizar entregas rápidas y seguras a cualquier destino. Nuestro equipo altamente capacitado y experimentado en logística terrestre está comprometido con la excelencia en cada paso del proceso. Desde la planificación de rutas hasta la coordinación de entregas y el seguimiento en tiempo real, estamos aquí para asegurarnos de que tus productos lleguen a su destino en perfectas condiciones y en el momento justo.",
+    "AIR": "Descubre la velocidad y eficiencia del transporte aéreo con nosotros. En nuestra empresa de transporte logístico, ofrecemos soluciones a medida para tus necesidades de envío aéreo, garantizando entregas rápidas y seguras a cualquier destino del mundo. Contamos con una red global de socios y aerolíneas líderes, lo que nos permite ofrecer una amplia gama de opciones de envío, desde cargas urgentes hasta mercancías de gran volumen. Nuestra prioridad es asegurarnos de que tu carga llegue a tiempo y en perfectas condiciones, sin importar cuán complejas sean tus necesidades logísticas. Confía en nosotros para llevar tus envíos aéreos a nuevos horizontes con velocidad, precisión y profesionalismo. Estamos listos para ser tu socio confiable en el emocionante mundo del transporte aéreo.",
+    "CUSTOMS": "Descubre la importancia de la gestión aduanera en el mundo de la logística con nosotros. En nuestra empresa, entendemos que el paso por la aduana es una parte crucial del proceso de transporte internacional y estamos aquí para facilitarlo. Nuestro equipo de expertos en aduanas está dedicado a asegurar que tus envíos cumplan con todos los requisitos legales y reglamentarios antes de cruzar las fronteras. Desde la preparación de la documentación adecuada hasta la coordinación de inspecciones y el cumplimiento de los aranceles aduaneros, nos encargamos de cada detalle para garantizar un paso fluido por la aduana. Al elegir nuestros servicios de gestión aduanera, eliges la tranquilidad y la confianza de saber que tus envíos están en manos expertas. Estamos listos para ser tu socio confiable en el complejo mundo de la logística internacional y aduanas."
   }
 }

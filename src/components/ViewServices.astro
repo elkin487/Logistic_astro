@@ -1,0 +1,50 @@
+---
+import { getI18N } from "../i18n";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+interface Props {
+  title: string;
+  body: string;
+  href: string;
+}
+
+const { href, title, body } = Astro.props;
+---
+
+<!-- Page Header Start -->
+<div class="container">
+  <div class="container-fluid overflow-hidden px-lg-0">
+    <div class="container about px-lg-0">
+      <div class="row g-5 mx-lg-0">
+        <div
+          class="col-lg-6 ps-lg-0 wow fadeInLeft"
+          data-wow-delay="0.1s"
+          style="min-height: 400px;"
+        >
+          <div class="position-relative h-100">
+            <img
+              class="position-absolute img-fluid w-100 h-100"
+              src={href}
+              style="object-fit: cover;"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
+          <h6 class="text-secondary text-uppercase mb-3">{title}</h6>
+          <div class="row g-4 mb-2">
+            <div class="col-sm-12 wow fadeIn" data-wow-delay="0.5s">
+              <p class="m-0">
+                {body}
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- <a href="" class="btn btn-primary py-3 px-5">Explore More</a> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Page Header End -->

@@ -1,7 +1,12 @@
 ---
-import { getI18N } from "../i18n";
 const { currentLocale } = Astro;
+import { getI18N } from "../i18n";
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { getLangFromUrl, useTranslations } from "../i18n/utils.ts";
+
 const i18n = getI18N({ currentLocale });
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <!-- Service Start -->
@@ -14,18 +19,25 @@ const i18n = getI18N({ currentLocale });
       <h1 class="mb-5">{i18n.SERVICES.OUR_SERVICES.SUB_TITLE}</h1>
     </div>
     <div class="row g-4">
+      <!-- Servicio de Naviera -->
       <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
         <div class="service-item p-4">
           <div class="overflow-hidden mb-4">
-            <img class="img-fluid" src="/img/service-1.jpg" alt="" />
+            <img class="img-fluid" src="/img/service-4.jpg" alt="" />
           </div>
-          <h4 class="mb-3">{i18n.SERVICES.OUR_SERVICES.ITEMS.AIR.TITLE}</h4>
-          <p class="text-justificy">
-            {i18n.SERVICES.OUR_SERVICES.ITEMS.AIR.BODY}
+          <h4 class="mb-3">
+            {i18n.SERVICES.OUR_SERVICES.ITEMS.SUPPORT.TITLE}
+          </h4>
+          <p>
+            {i18n.SERVICES.OUR_SERVICES.ITEMS.SUPPORT.BODY}
           </p>
-          <!-- <a class="btn-slide mt-2" href=""
-            ><i class="fa fa-arrow-right"></i><span>Read More</span></a
-          > -->
+          <a
+            class="btn-slide mt-2"
+            href={getRelativeLocaleUrl(
+              currentLocale ?? "",
+              "services/consulting"
+            )}><i class="fa fa-arrow-right"></i><span>{t("readmore")}</span></a
+          >
         </div>
       </div>
       <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -37,9 +49,30 @@ const i18n = getI18N({ currentLocale });
           <p>
             {i18n.SERVICES.OUR_SERVICES.ITEMS.OCEAN.BODY}
           </p>
-          <!-- <a class="btn-slide mt-2" href=""
-            ><i class="fa fa-arrow-right"></i><span>Read More</span></a
-          > -->
+          <a
+            class="btn-slide mt-2"
+            href={getRelativeLocaleUrl(
+              currentLocale ?? "",
+              "services/maritime"
+            )}><i class="fa fa-arrow-right"></i><span>{t("readmore")}</span></a
+          >
+        </div>
+        <!-- Servicio de Naviera -->
+      </div>
+      <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="service-item p-4">
+          <div class="overflow-hidden mb-4">
+            <img class="img-fluid" src="/img/service-1.jpg" alt="" />
+          </div>
+          <h4 class="mb-3">{i18n.SERVICES.OUR_SERVICES.ITEMS.AIR.TITLE}</h4>
+          <p class="text-justificy">
+            {i18n.SERVICES.OUR_SERVICES.ITEMS.AIR.BODY}
+          </p>
+          <a
+            class="btn-slide mt-2"
+            href={getRelativeLocaleUrl(currentLocale ?? "", "services/air")}
+            ><i class="fa fa-arrow-right"></i><span>{t("readmore")}</span></a
+          >
         </div>
       </div>
       <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
@@ -51,27 +84,14 @@ const i18n = getI18N({ currentLocale });
           <p>
             {i18n.SERVICES.OUR_SERVICES.ITEMS.ROAD.BODY}
           </p>
-          <!-- <a class="btn-slide mt-2" href=""
-            ><i class="fa fa-arrow-right"></i><span>Read More</span></a
-          > -->
+          <a
+            class="btn-slide mt-2"
+            href={getRelativeLocaleUrl(currentLocale ?? "", "services/ground")}
+            ><i class="fa fa-arrow-right"></i><span>{t("readmore")}</span></a
+          >
         </div>
       </div>
-      <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-        <div class="service-item p-4">
-          <div class="overflow-hidden mb-4">
-            <img class="img-fluid" src="/img/service-4.jpg" alt="" />
-          </div>
-          <h4 class="mb-3">
-            {i18n.SERVICES.OUR_SERVICES.ITEMS.INVENTORY.TITLE}
-          </h4>
-          <p>
-            {i18n.SERVICES.OUR_SERVICES.ITEMS.INVENTORY.BODY}
-          </p>
-          <!-- <a class="btn-slide mt-2" href=""
-            ><i class="fa fa-arrow-right"></i><span>Read More</span></a
-          > -->
-        </div>
-      </div>
+
       <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
         <div class="service-item p-4">
           <div class="overflow-hidden mb-4">
@@ -83,9 +103,11 @@ const i18n = getI18N({ currentLocale });
           <p>
             {i18n.SERVICES.OUR_SERVICES.ITEMS.CLEARANCE.BODY}
           </p>
-          <!-- <a class="btn-slide mt-2" href=""
-            ><i class="fa fa-arrow-right"></i><span>Read More</span></a
-          > -->
+          <a
+            class="btn-slide mt-2"
+            href={getRelativeLocaleUrl(currentLocale ?? "", "services/customs")}
+            ><i class="fa fa-arrow-right"></i><span>{t("readmore")}</span></a
+          >
         </div>
       </div>
       <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
@@ -99,9 +121,13 @@ const i18n = getI18N({ currentLocale });
           <p>
             {i18n.SERVICES.OUR_SERVICES.ITEMS.WAREHOUSE.BODY}
           </p>
-          <!-- <a class="btn-slide mt-2" href=""
-            ><i class="fa fa-arrow-right"></i><span>Read More</span></a
-          > -->
+          <a
+            class="btn-slide mt-2"
+            href={getRelativeLocaleUrl(
+              currentLocale ?? "",
+              "services/warehouse"
+            )}><i class="fa fa-arrow-right"></i><span>{t("readmore")}</span></a
+          >
         </div>
       </div>
     </div>

@@ -75,6 +75,10 @@
         "INVENTORY": {
           "TITLE": "Inventory Management",
           "BODY": "We operate a distribution system where logistic units are received at a staging platform and not stored but prepared for immediate shipment."
+        },
+        "SUPPORT": {
+          "TITLE": "Consulting",
+          "BODY": "OOptimize your supply chain with our transportation consulting services. We provide customized solutions to enhance efficiency and reduce costs in your logistics operations."
         }
       }
     },
