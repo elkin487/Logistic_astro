@@ -14,13 +14,13 @@
   },
   "ABOUT": {
     "ABOUT_S": {
-      "TITLE": "About us",
-      "SUB_TITLE": "Fast transportation and logistics solutions",
-      "BODY": "SLOC is a leading company in the transportation sector, with over 5 years of experience in the market. We offer a wide range of land, sea, and air transportation solutions to meet our clients' needs.",
-      "GLOVAL_COVERGA": "Global coverage",
-      "GLOVAL_COVERGA_BODY": "We have an extensive network of partners worldwide that allows us to offer you a hassle-free door-to-door transportation service.",
-      "ON_TIME_DELIVERY": "Delivery time",
-      "ON_TIME_DELIVERY_BODY": "No matter where you need to send your products, SLOC can help you get there."
+      "TITLE": "know us",
+      "SUB_TITLE": "¿about us?",
+      "BODY": "We are a Colombian company dedicated to international trade, logistics, marketing, import, export of products, and project cargo, in the agricultural, industrial, service, and automotive sectors, established in 2016. We have a qualified human resource with over 20 years of experience, dedicated to meeting the consumption needs of our clients in various areas and special projects in different cities around the world.",
+      "GLOVAL_COVERGA": "Mission",
+      "GLOVAL_COVERGA_BODY": "Facilitating logistical solutions based on operational excellence, generating added value within the supply chain for our entire team, clients, and strategic allies.",
+      "ON_TIME_DELIVERY": "Vision",
+      "ON_TIME_DELIVERY_BODY": "To be recognized as leaders in customs solutions, distinguished by our excellence in customer service, technological innovation, and commitment to integrity in every transaction. We strive to simplify customs processes and contribute to the success of our clients in international trade."
     },
     "SOME_FACTS": {
       "TITLE": "Some facts",
@@ -29,20 +29,32 @@
       "CALL": "Call for any inquiries!"
     },
     "OUR_FEATURES": {
-      "TITLE": "Our Features",
-      "SUB_TITLE": "We have been a trusted logistics company since [Year].",
+      "TITLE": "Values",
+      "SUB_TITLE": "We have been a trusted logistics company for 6 years.",
       "ITEMS": {
-        "WOLDWIDE_SERVICE": {
-          "TITLE": "Worldwide service",
-          "BODY": "Worldwide logistics service: Connecting the world to your business"
+        "INTEGRITY": {
+          "TITLE": "Integrity",
+          "BODY": "We act with honesty and transparency in all our operations, complying with regulations and ethics."
         },
-        "ON_TIME_DELIVERY": {
-          "TITLE": "Delivery time",
-          "BODY": "Delivery time: Your merchandise where you need it, when you need it."
+        "EXCELLENCE": {
+          "TITLE": "Execellence",
+          "BODY": "We strive to provide exceptional service, offering solutions tailored to the needs of each client."
         },
-        "SUPPORT": {
-          "TITLE": "24/7 Support",
-          "BODY": "This means you can contact us at any time, regardless of the time zone you're in."
+        "INNOVATION": {
+          "TITLE": "Innovation",
+          "BODY": "We constantly seek new technologies and processes to improve the efficiency and quality of our services, keeping us at the forefront of the industry."
+        },
+        "COLLABORATION": {
+          "TITLE": "Collaboration",
+          "BODY": "We work as a team, both within our company and with our clients and business partners, to achieve optimal results and overcome challenges together."
+        },
+        "QUALITY": {
+          "TITLE": "Quality",
+          "BODY": "We pursue excellence in all we do, ensuring accuracy, timeliness, and reliability in every customs process we handle."
+        },
+        "ORIENTATION": {
+          "TITLE": "Orientation",
+          "BODY": "We put the needs and interests of our clients at the center of our operations, being receptive to their feedback and suggestions."
         }
       }
     }
@@ -96,5 +108,13 @@
   "TEAM": {
     "TITLE": "TEAM",
     "SUB_TITLE": "Our Experts"
+  },
+  "BODY_SERVICES": {
+    "WAREHOUSE": "Explore our warehouse, the core of efficient logistics. Here, technology and expertise come together to manage your inventory with pinpoint accuracy. With advanced systems and a highly trained team, we provide total visibility and unparalleled security for your products. From storage to distribution, we're here to simplify your supply chain and take your business to the next level. Trust us for seamless logistics and exceptional service.",
+    "MARITIME": "Immerse yourself in the world of maritime transportation with us, where every shipment becomes a journey of trust and efficiency. With a modern and diversified fleet, we are equipped to handle cargoes of all sizes and types, from standard containers to heavy-duty project cargoes and special goods. Our commitment to safety and excellence is paramount. We adhere to the most rigorous industry standards and employ cutting-edge technology to monitor and manage every phase of the maritime journey. From route planning to risk prevention and incident management, we are dedicated to ensuring that your cargo reaches its destination safely and on time.",
+    "CONSULTING": "In the complex world of logistics, every decision counts. From inventory management to transportation route optimization, every aspect of your supply chain has a direct impact on the efficiency and profitability of your business. That's why we offer personalized logistics consulting services to help you overcome challenges and achieve your business objectives. Our team of logistics experts is here to provide strategic guidance in all critical areas of your operation. Whether you need assistance in improving warehouse efficiency, optimizing distribution processes, or implementing cutting-edge technology in your supply chain, we are here to help you navigate the complexities of the logistics world.",
+    "GROUND": "Discover excellence in ground transportation with us. Our company takes pride in offering comprehensive and efficient logistics solutions that cover all your road transportation needs. With a modern and diversified fleet, we are prepared to handle cargoes of any size and type. From small shipments to full truckloads, we can adapt to your specific requirements and ensure fast and secure deliveries to any destination. Our highly trained and experienced ground logistics team is committed to excellence at every step of the process. From route planning to delivery coordination and real-time tracking, we are here to ensure that your products reach their destination in perfect condition and on time.",
+    "AIR": "Discover the speed and efficiency of air transportation with us. In our logistics transportation company, we offer tailored solutions for your air shipping needs, ensuring fast and secure deliveries to any destination worldwide. We have a global network of partners and leading airlines, enabling us to provide a wide range of shipping options, from urgent cargoes to large-volume goods. Our priority is to ensure that your cargo arrives on time and in perfect condition, no matter how complex your logistics needs are. Trust us to take your air shipments to new heights with speed, accuracy, and professionalism. We are ready to be your reliable partner in the exciting world of air transportation.",
+    "CUSTOMS": "Discover the importance of customs management in the world of logistics with us. In our company, we understand that customs clearance is a crucial part of the international transportation process, and we are here to make it easier for you. Our team of customs experts is dedicated to ensuring that your shipments comply with all legal and regulatory requirements before crossing borders. From preparing the appropriate documentation to coordinating inspections and complying with customs duties, we take care of every detail to ensure a smooth passage through customs. By choosing our customs management services, you choose the peace of mind and confidence of knowing that your shipments are in expert hands. We are ready to be your trusted partner in the complex world of international logistics and customs."
   }
 }
