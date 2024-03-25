@@ -2,7 +2,7 @@
   "CAROUSEL": {
     "TITLE": "Transport and logistics solutions",
     "C1": {
-      "TITLE": "integral solutions",
+      "TITLE": "Integral solutions",
       "BODY": "Your merchandise in the best conditions, in the shortest possible time and at the best cost",
       "READ_MORE": "READ MORE"
     },
@@ -15,7 +15,7 @@
   "ABOUT": {
     "ABOUT_S": {
       "TITLE": "know us",
-      "SUB_TITLE": "¿about us?",
+      "SUB_TITLE": "¿About us?",
       "BODY": "We are a Colombian company dedicated to international trade, logistics, marketing, import, export of products, and project cargo, in the agricultural, industrial, service, and automotive sectors, established in 2016. We have a qualified human resource with over 20 years of experience, dedicated to meeting the consumption needs of our clients in various areas and special projects in different cities around the world.",
       "GLOVAL_COVERGA": "Mission",
       "GLOVAL_COVERGA_BODY": "Facilitating logistical solutions based on operational excellence, generating added value within the supply chain for our entire team, clients, and strategic allies.",
@@ -90,7 +90,7 @@
         },
         "SUPPORT": {
           "TITLE": "Consulting",
-          "BODY": "OOptimize your supply chain with our transportation consulting services. We provide customized solutions to enhance efficiency and reduce costs in your logistics operations."
+          "BODY": "Optimize your supply chain with our transportation consulting services. We provide customized solutions to enhance efficiency and reduce costs in your logistics operations."
         }
       }
     },
