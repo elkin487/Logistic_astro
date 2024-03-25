@@ -1,189 +1,15 @@
 ---
 import { ASSETS } from "../lib/constants";
-
+import { getLangFromUrl, useTranslations } from "../i18n/utils.ts";
+import { getRelativeLocaleUrl } from "astro:i18n";
+const { currentLocale } = Astro;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 var today = new Date();
 var year = today.getFullYear();
 ---
 
-<!-- <footer class="footer">
-  <div class="waves">
-    <div class="wave" id="wave1"></div>
-    <div class="wave" id="wave2"></div>
-    <div class="wave" id="wave3"></div>
-    <div class="wave" id="wave4"></div>
-  </div>
-  <ul class="social-icon">
-    <li class="social-icon__item">
-      <a class="social-icon__link" href="#">
-        <ion-icon name="logo-facebook"></ion-icon>
-      </a>
-    </li>
-    <li class="social-icon__item">
-      <a class="social-icon__link" href="#">
-        <ion-icon name="logo-twitter"></ion-icon>
-      </a>
-    </li>
-    <li class="social-icon__item">
-      <a class="social-icon__link" href="#">
-        <ion-icon name="logo-linkedin"></ion-icon>
-      </a>
-    </li>
-    <li class="social-icon__item">
-      <a class="social-icon__link" href="#">
-        <ion-icon name="logo-instagram"></ion-icon>
-      </a>
-    </li>
-  </ul>
-  <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-    <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-    <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
-    <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
-    <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
-  </ul>
-  <p>&copy;{year} SLOC | All Rights Reserved</p>
-</footer>
-<script
-  type="module"
-  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script
-  nomodule
-  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<style>
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
-
-  /* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  } */
-
-  /* body {
-    display: flex;
-    background: #333;
-    justify-content: flex-end;
-    align-items: flex-end;
-    min-height: 100vh;
-  } */
-
-  .footer {
-    position: relative;
-    width: 100%;
-    background: #3586ff;
-    min-height: 100px;
-    padding: 20px 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .social-icon,
-  .menu {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-    flex-wrap: wrap;
-  }
-
-  .social-icon__item,
-  .menu__item {
-    list-style: none;
-  }
-
-  .social-icon__link {
-    font-size: 2rem;
-    color: #fff;
-    margin: 0 10px;
-    display: inline-block;
-    transition: 0.5s;
-  }
-  .social-icon__link:hover {
-    transform: translateY(-10px);
-  }
-
-  .menu__link {
-    font-size: 1.2rem;
-    color: #fff;
-    margin: 0 10px;
-    display: inline-block;
-    transition: 0.5s;
-    text-decoration: none;
-    opacity: 0.75;
-    font-weight: 300;
-  }
-
-  .menu__link:hover {
-    opacity: 1;
-  }
-
-  .footer p {
-    color: #fff;
-    margin: 15px 0 10px 0;
-    font-size: 1rem;
-    font-weight: 300;
-  }
-
-  .wave {
-    position: absolute;
-    top: -100px;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background: url("https://i.ibb.co/wQZVxxk/wave.png");
-    background-size: 1000px 100px;
-  }
-
-  .wave#wave1 {
-    z-index: 1000;
-    opacity: 1;
-    bottom: 0;
-    animation: animateWaves 4s linear infinite;
-  }
-
-  .wave#wave2 {
-    z-index: 999;
-    opacity: 0.5;
-    bottom: 10px;
-    animation: animate 4s linear infinite !important;
-  }
-
-  .wave#wave3 {
-    z-index: 1000;
-    opacity: 0.2;
-    bottom: 15px;
-    animation: animateWaves 3s linear infinite;
-  }
-
-  .wave#wave4 {
-    z-index: 999;
-    opacity: 0.7;
-    bottom: 20px;
-    animation: animate 3s linear infinite;
-  }
-
-  @keyframes animateWaves {
-    0% {
-      background-position-x: 1000px;
-    }
-    100% {
-      background-positon-x: 0px;
-    }
-  }
-
-  @keyframes animate {
-    0% {
-      background-position-x: -1000px;
-    }
-    100% {
-      background-positon-x: 0px;
-    }
-  }
-</style> -->
-<div
+<!-- <div
   class="container-fluid bg-primary text-light footer pt-5 wow fadeIn"
   data-wow-delay="0.1s"
   style="margin-top: 2rem;"
@@ -198,11 +24,6 @@ var year = today.getFullYear();
           SLOC ofrece servicio de Agenciamiento Aduanero y Asesoría en Comercio
           Exterior
         </p>
-        <!-- <h4 class="text-light mb-4">Services</h4> -->
-        <!-- <a class="btn btn-link" href="">Air Freight</a>
-        <a class="btn btn-link" href="">Road Freight</a>
-        <a class="btn btn-link" href="">Logistic Solutions</a>
-        <a class="btn btn-link" href="">Industry solutions</a> -->
       </div>
       <div class="col-lg-3 col-md-6">
         <h4 class="text-light mb-4">Address</h4>
@@ -241,7 +62,6 @@ var year = today.getFullYear();
       </div>
       <div class="col-lg-3 col-md-6">
         <h4 class="text-light mb-4">Suppliers</h4>
-        
       </div>
     </div>
   </div>
@@ -255,8 +75,110 @@ var year = today.getFullYear();
         }
       </div>
       <div class="col-md-6 text-center text-md-end">
-        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
         Designed By <a class="border-bottom" href="#">SLOC</a>
+      </div>
+    </div>
+  </div>
+</div> --><!-- Footer Start -->
+<div
+  class="container-fluid bg-primary text-light footer pt-5 wow fadeIn"
+  data-wow-delay="0.1s"
+  style="margin-top: 6rem;"
+>
+  <div class="container py-5">
+    <div class="row g-5">
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-light mb-4">Address</h4>
+        <p class="mb-2">
+          <i class="fa fa-map-marker-alt me-3"></i>{ASSETS.address}
+        </p>
+        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>{ASSETS.number}</p>
+        <p class="mb-2"><i class="fa fa-envelope me-3"></i>{ASSETS.email}</p>
+        <div class="d-flex pt-2">
+          <!-- <a class="btn btn-outline-light btn-social" href=""
+            ><i class="fab fa-twitter"></i></a
+          > -->
+          <a class="btn btn-outline-light btn-social" href={ASSETS.facebook}
+            ><i class="fab fa-facebook-f"></i></a
+          >
+          <!-- <a class="btn btn-outline-light btn-social" href=""
+            ><i class="fab fa-youtube"></i></a
+          > -->
+          <a class="btn btn-outline-light btn-social" href={ASSETS.linkedin}
+            ><i class="fab fa-linkedin-in"></i></a
+          >
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-light mb-4">Services</h4>
+        <a
+          class="btn btn-link"
+          href={getRelativeLocaleUrl(currentLocale ?? "", "services/maritime")}
+          class="dropdown-item">{t("nav.marine_transport")}</a
+        >
+        <a
+          class="btn btn-link"
+          href={getRelativeLocaleUrl(
+            currentLocale ?? "",
+            "services/consulting"
+          )}>{t("nav.consulting")}</a
+        >
+        <a
+          class="btn btn-link"
+          href={getRelativeLocaleUrl(currentLocale ?? "", "services/customs")}
+          class="dropdown-item">{t("nav.customs")}</a
+        >
+        <a
+          class="btn btn-link"
+          href={getRelativeLocaleUrl(currentLocale ?? "", "services/air")}
+          class="dropdown-item">{t("nav.air_transport")}</a
+        >
+        <a
+          class="btn btn-link"
+          href={getRelativeLocaleUrl(currentLocale ?? "", "services/ground")}
+          class="dropdown-item">{t("nav.ground_transportation")}</a
+        >
+        <a
+          class="btn btn-link"
+          href={getRelativeLocaleUrl(currentLocale ?? "", "services/warehouse")}
+          class="dropdown-item">{t("nav.warehouse")}</a
+        >
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-light mb-4">Quick Links</h4>
+        <a
+          class="btn btn-link"
+          href={getRelativeLocaleUrl(currentLocale ?? "", "/")}
+          >{t("nav.home")}</a
+        >
+        <a
+          class="btn btn-link"
+          href={getRelativeLocaleUrl(currentLocale ?? "", "about")}
+          >{t("nav.about")}</a
+        >
+        <a
+          class="btn btn-link"
+          href={getRelativeLocaleUrl(currentLocale ?? "", "contact")}
+          >{t("nav.contact")}</a
+        >
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-light mb-4">Newsletter</h4>
+        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+        <div class="position-relative mx-auto" style="max-width: 400px;"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="copyright">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          &copy; <a class="border-bottom" href="#">{ASSETS.name}</a>, All Right
+          Reserved.
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          Designed By <a class="border-bottom" href="#">{ASSETS.name} {year}</a>
+        </div>
       </div>
     </div>
   </div>
