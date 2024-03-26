@@ -1,6 +1,6 @@
 export const languages = {
   es: "/img/colombia.png",
-  en: "/img/ingles.png",
+  en: "/img/ingles.jpg",
 };
 
 export const defaultLang = "es";
