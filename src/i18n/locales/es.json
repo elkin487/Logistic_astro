@@ -88,9 +88,13 @@
           "TITLE": "Administracion De Inventario",
           "BODY": "Manejamos un sistema de distribución donde las unidades logísticas son recibidas en una plataforma de alistamiento y no son almacenadas si no preparadas para ser enviadas de manera inmediata."
         },
-        "SUPPORT" : {
+        "SUPPORT": {
           "TITLE": "Consultoria",
           "BODY": "Optimiza tu cadena de suministro con nuestra consultoría en transporte. Ofrecemos soluciones personalizadas para mejorar la eficiencia y reducir costos en tus operaciones logísticas."
+        },
+        "CAR_OLD": {
+          "TITLE": "Exportacion vehiculos clasicos y antiguos",
+          "BODY": "Acompañamiento yasesoria personalizada en todo el proceso de exportación ante autoridades de tránsito, policia, puerto y las diferentes entidades"
         }
       }
     },
