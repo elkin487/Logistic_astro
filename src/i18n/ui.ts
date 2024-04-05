@@ -22,6 +22,7 @@ export const ui = {
     "nav.ground_transportation": "Transporte Terrestre",
     "nav.consulting": "Asesorias",
     "nav.warehouse": "Distribucion y almacenes",
+    "nav.car": "Exportacion vehiculos clasicos y antiguos",
     "readmore" :"Ver Mas"
 
   },
@@ -40,6 +41,7 @@ export const ui = {
     "nav.ground_transportation": "Ground Transportation",
     "nav.consulting": "Consulting",
     "nav.warehouse": "Distribution and warehouses",
+    "nav.car": "Export of classic and antique vehicles",
     "readmore" :"Read More"
   },
 } as const;

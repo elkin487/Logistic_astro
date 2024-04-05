@@ -51,9 +51,7 @@ interface Props {
       <Links route={getRelativeLocaleUrl(currentLocale ?? "", "about")}
         >{t("nav.about")}</Links
       >
-      <Links route={getRelativeLocaleUrl(currentLocale ?? "", "contact")}
-        >{t("nav.contact")}</Links
-      >
+   
       <div class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
           >{t("nav.service")}</a
@@ -92,8 +90,15 @@ interface Props {
             )}
             class="dropdown-item">{t("nav.warehouse")}</a
           >
+          <a
+            href={getRelativeLocaleUrl(currentLocale ?? "", "services/car")}
+            class="dropdown-item">{t("nav.car")}</a
+          >
         </div>
       </div>
+      <Links route={getRelativeLocaleUrl(currentLocale ?? "", "contact")}
+      >{t("nav.contact")}</Links
+    >
       <LanguagePicker />
     </div>
     <h4 class="m-0 pe-lg-5 d-none d-lg-block">
