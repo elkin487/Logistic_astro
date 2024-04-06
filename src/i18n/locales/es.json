@@ -2,13 +2,18 @@
   "CAROUSEL": {
     "TITLE": "Soliciones de Transporte & Logistica",
     "C1": {
+      "TITLE": "Exportación de vehiculos clasicos y antiguos",
+      "BODY": "transferencia de automóviles históricos entre países con el fin de compra, venta, restauración o exhibición",
+      "READ_MORE": "LEER MAS"
+    },
+    "C2": {
       "TITLE": "Soluciones Integrales",
       "BODY": "Hacemos del Comercio Internacional una excelente experiencia",
       "READ_MORE": "LEER MAS"
     },
-    "C2": {
+    "C3": {
       "TITLE": "Soluciones De Almacenamiento",
-      "BODY": "Eficiencia, Compromiso, Seguridad",
+      "BODY": "Tenemos a nuestra disposición instalaciones donde almacenamos mercancías importadas, las cuales están listas para su distribución o exportación.",
       "READ_MORE": "LEER MAS"
     }
   },

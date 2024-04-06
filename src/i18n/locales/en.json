@@ -2,13 +2,18 @@
   "CAROUSEL": {
     "TITLE": "Transport and logistics solutions",
     "C1": {
+      "TITLE": "Exportation of classic and antique vehicles",
+      "BODY": "Transfer of historic automobiles between countries for the purpose of purchase, sale, restoration, or exhibition.",
+      "READ_MORE": "READ MORE"
+    },
+    "C2": {
       "TITLE": "Integral solutions",
       "BODY": "We make International Trade an excellent experience",
       "READ_MORE": "READ MORE"
     },
-    "C2": {
+    "C3": {
       "TITLE": "Storage solutions",
-      "BODY": "Efficiency, Commitment, Security",
+      "BODY": "We have facilities where we store imported goods ready for distribution or exportation.",
       "READ_MORE": "READ MORE"
     }
   },
