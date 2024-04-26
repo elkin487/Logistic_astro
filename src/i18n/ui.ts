@@ -23,6 +23,7 @@ export const ui = {
     "nav.consulting": "Asesorias",
     "nav.warehouse": "Distribucion y almacenes",
     "nav.car": "Exportacion vehiculos clasicos y antiguos",
+    "nav.galery" : "Galeria",
     "readmore" :"Ver Mas"
 
   },
@@ -42,6 +43,7 @@ export const ui = {
     "nav.consulting": "Consulting",
     "nav.warehouse": "Distribution and warehouses",
     "nav.car": "Export of classic and antique vehicles",
+    "nav.galery" : "Galery",
     "readmore" :"Read More"
   },
 } as const;
