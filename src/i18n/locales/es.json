@@ -2,23 +2,23 @@
   "CAROUSEL": {
     "TITLE": "Soliciones de Transporte & Logistica",
     "C1": {
-      "TITLE": "Exportación de vehiculos clasicos y antiguos",
-      "BODY": "transferencia de automóviles históricos entre países con el fin de compra y venta, restauración o exhibición. Asi como tambien, contamos con parqueaderos cubiertos en nuestras instalaciones para que sus joyas no se vean deterioradas al estar expuestas al sol, lluvia, tierra y/o salinidad del mar.",
+      "TITLE": "Importacion y exportacion de vehiculos calisicos y antiguos",
+      "BODY": "Nos apasiona lo que hacemos y queremos darles el mismo valor y cuidado a las joyas sobre ruedas de nuestros clientes, contamos con toda la logística para recibir y entregar desde y hacia cualquier parte del mundo sus vehículos clásicos y antiguos.",
       "READ_MORE": "LEER MAS"
     },
     "C2": {
-      "TITLE": "Soluciones Integrales",
+      "TITLE": "Soluciones Logísticas Integrales.",
       "BODY": "Hacemos del Comercio Internacional una excelente experiencia",
       "READ_MORE": "LEER MAS"
     },
     "C3": {
       "TITLE": "Soluciones De Almacenamiento",
-      "BODY": "Contamos con todo tipo de mercancías, de importación, exportación, nacional, ya sea para alistamiento o distribución, en nuestros cómodos espacios nos preocupamos por solucionar sus inconvenientes de almacenamiento y agregar valor a su cadena de abastecimiento.",
+      "BODY": "Contamos con alianzas estratégicas para brindar soluciones de almacenamiento a sus necesidades, tenemos la experiencia necesaria para manejar todo tipo de mercancías, cargas de Importaciones, Exportaciones, Mercancía nacional, cargas para alistamiento o distribución, en nuestros cómodos espacios, nos preocupamos por solucionar sus inconvenientes de almacenamiento y agregar valor a su cadena de abastecimiento.",
       "READ_MORE": "LEER MAS"
     },
     "C4": {
       "TITLE": "Carga de proyecto",
-      "BODY":"",
+      "BODY": "Todo proyecto requiere de una planeación estratégica para lograr los objetivos, por eso, ponemos a su entera disposición nuestra amplia experiencia en el manejo de cargas de proyectos con el fin de agregar valor, mitigar riesgos, optimizar costos, tiempos y lo más importante, llevar a cabo una operación segura.",
       "READ_MORE": "LEER MAS"
     }
   },
@@ -44,7 +44,7 @@
       "ITEMS": {
         "INTEGRITY": {
           "TITLE": "Integridad",
-          "BODY": "Actuamos con honestidad y transparencia en todas nuestras operaciones, cumpliendo con las regulaciones y éticas."
+          "BODY": "Actuamos con honestidad y transparencia en todas nuestras operaciones,cumpliendo con las regulaciones normativas de cada pais y sobre todo con ética laboral."
         },
         "EXCELLENCE": {
           "TITLE": "Excelencia",
@@ -56,7 +56,7 @@
         },
         "COLLABORATION": {
           "TITLE": "Colaboración",
-          "BODY": "Trabajamos en equipo, tanto dentro de nuestra empresa como con nuestros clientes y socios comerciales, para lograr resultados óptimos y superar desafíos de manera conjunta."
+          "BODY": "Un pilar fundamental en el éxito de nuestra organización, el trabajo en equipo con nuestros clientes y socios comerciales para lograr resultados óptimos y superar desafíos de manera conjunta."
         },
         "QUALITY": {
           "TITLE": "Calidad",
@@ -76,23 +76,23 @@
       "ITEMS": {
         "AIR": {
           "TITLE": "Transporte Aéreo",
-          "BODY": "Nuestro modo de transporte más rápido, ideal para el translado de mercancias a largas distancias."
+          "BODY": "Nuestro modo de transporte mas rápido, ideal para el manejo de cargas urgentes y que ameriten el costo / beneficio de la operación y aunque no lo creas, tenemos tarifas excepcionales esperando para tus cargas, sin importar el peso o volumen de las mismas."
         },
         "OCEAN": {
           "TITLE": "Carga Maritima",
-          "BODY": "Contanmos con el translado a traves del mar caracterizado por su capacidad, bajo costo, mayor capacidad de carga y flexiilidad de mercancias."
+          "BODY": "Somos expertos en el manejo de carga marítima, ya sea en contenedor, carga suelta, Roll On – Roll Off, Breakbulk, Flexitank, cargas de proyectos, etc. y toda esta experiencia está a tu alcance para optimizar costos y tiempos de tránsitos de tus cargas."
         },
         "ROAD": {
           "TITLE": "Transporte Por Carretera",
           "BODY": "En este modo permite llegar a lugares remotos y la capacidad de adaptarse a diferentes nesesidades de transporte."
         },
         "CLEARANCE": {
-          "TITLE": "Despacho De Aduana",
-          "BODY": "Contamos con un protocolo para la entrada y salida de las mercancias durante una operación de comercio."
+          "TITLE": "Agenciamiento Aduanero",
+          "BODY": "Contamos con nuestra propia de agencia de aduanas, acreditada ante las autoridades correspondientes para el manejo de sus cargas, expertos consultores con amplia experiencia en normatividad aduanera dispuestos a despejar  todas las dudas para materializar y/o afianzar tus procesos aduaneros."
         },
         "WAREHOUSE": {
           "TITLE": "Soluciones De Almacenamiento",
-          "BODY": "tenemos sistemas y tecnologias que nos ayudan a guardar y organizar mercancias, productos o materiales."
+          "BODY": "Contamos con alianzas estratégicas en los principales puertos y ciudades para satisfacer sus necesidades de almacenamiento en bodega cubierta o patio descubierto de mercancías de importación, exportación, nacionales o con destino a zonas francas."
         },
         "INVENTORY": {
           "TITLE": "Administracion De Inventario",
@@ -100,11 +100,11 @@
         },
         "SUPPORT": {
           "TITLE": "Consultoria",
-          "BODY": "Optimiza tu cadena de suministro con nuestra consultoría en transporte. Ofrecemos soluciones personalizadas para mejorar la eficiencia y reducir costos en tus operaciones logísticas."
+          "BODY": "Optimiza tu cadena de suministro con nuestra consultoría en comercio internacional. Ofrecemos soluciones personalizadas para mejorar la eficiencia y reducir costos en tus operaciones logísticas."
         },
         "CAR_OLD": {
           "TITLE": "Exportacion vehiculos clasicos y antiguos",
-          "BODY": "Acompañamiento yasesoria personalizada en todo el proceso de exportación ante autoridades de tránsito, policia, puerto y las diferentes entidades"
+          "BODY": "Acompañamiento y asesoría personalizada en todo el proceso de exportación y/o importación de su vehículo, respuestas en tiempo real, mínimos tiempos de liberación de los vehículos tanto en origen como en destino, cuidado especial de los vehículos, contamos con parqueaderos cubiertos para no exponer los vehículos al sol, lluvia, tierra o salinidad."
         }
       }
     },

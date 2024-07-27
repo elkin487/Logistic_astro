@@ -1,6 +1,6 @@
 ---
 import { getI18N } from "../i18n";
-
+import { getRelativeLocaleUrl } from "astro:i18n";
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
 ---
@@ -9,47 +9,11 @@ const i18n = getI18N({ currentLocale });
 <div class="container-fluid p-0 pb-5">
   <div class="owl-carousel header-carousel position-relative mb-5">
     <div class="owl-carousel-item position-relative">
-      <img class="img-fluid" src="/img/carousel-3.jpg" alt="" />
-      <div
-        class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-        style="background: rgba(6, 3, 21, .5);"
-      >
-      
-        <div class="container">
-          <div class="row justify-content-start">
-            <div class="col-10 col-lg-8">
-              <h5 class="text-white text-uppercase mb-3 animated slideInDown">
-                {i18n.CAROUSEL.TITLE}
-              </h5>
-              <h1 class="display-3 text-white animated slideInDown mb-4">
-                {i18n.CAROUSEL.C1.TITLE}
-              </h1>
-              <p class="fs-5 fw-medium text-white mb-4 pb-2">
-                {i18n.CAROUSEL.C1.BODY}
-              </p>
-              <a
-                href=""
-                class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
-              >
-                {i18n.CAROUSEL.C1.READ_MORE}</a
-              >
-              <!-- <a
-                href=""
-                class="btn btn-secondary py-md-3 px-md-5 animated slideInRight"
-                >Free Quote</a
-              > -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>  
-    <div class="owl-carousel-item position-relative">
       <img class="img-fluid" src="/img/carousel-2.jpg" alt="" />
       <div
         class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
         style="background: rgba(6, 3, 21, .5);"
       >
-      
         <div class="container">
           <div class="row justify-content-start">
             <div class="col-10 col-lg-8">
@@ -63,10 +27,44 @@ const i18n = getI18N({ currentLocale });
                 {i18n.CAROUSEL.C2.BODY}
               </p>
               <a
-                href=""
+                href={getRelativeLocaleUrl(currentLocale ?? "", "services/customs")}
                 class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
               >
                 {i18n.CAROUSEL.C2.READ_MORE}</a
+              >
+              <!-- <a
+                href=""
+                class="btn btn-secondary py-md-3 px-md-5 animated slideInRight"
+                >Free Quote</a
+              > -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="owl-carousel-item position-relative">
+      <img class="img-fluid" src="/img/carousel-3.jpg" alt="" />
+      <div
+        class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+        style="background: rgba(6, 3, 21, .5);"
+      >
+        <div class="container">
+          <div class="row justify-content-start">
+            <div class="col-10 col-lg-8">
+              <h5 class="text-white text-uppercase mb-3 animated slideInDown">
+                {i18n.CAROUSEL.TITLE}
+              </h5>
+              <h1 class="display-3 text-white animated slideInDown mb-4">
+                {i18n.CAROUSEL.C1.TITLE}
+              </h1>
+              <p class="fs-5 fw-medium text-white mb-4 pb-2">
+                {i18n.CAROUSEL.C1.BODY}
+              </p>
+              <a
+              href={getRelativeLocaleUrl(currentLocale ?? "", "services/car")}
+                class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
+              >
+                {i18n.CAROUSEL.C1.READ_MORE}</a
               >
               <!-- <a
                 href=""
@@ -97,7 +95,7 @@ const i18n = getI18N({ currentLocale });
                 {i18n.CAROUSEL.C3.BODY}
               </p>
               <a
-                href=""
+                href={getRelativeLocaleUrl(currentLocale ?? "", "services/warehouse")}
                 class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
               >
                 {i18n.CAROUSEL.C3.READ_MORE}</a
@@ -110,11 +108,9 @@ const i18n = getI18N({ currentLocale });
             </div>
           </div>
         </div>
-        
       </div>
-      
     </div>
-     <div class="owl-carousel-item position-relative">
+    <div class="owl-carousel-item position-relative">
       <img class="img-fluid" src="/img/carousel-4.jpg" alt="" />
       <div
         class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
@@ -133,7 +129,7 @@ const i18n = getI18N({ currentLocale });
                 {i18n.CAROUSEL.C4.BODY}
               </p>
               <a
-                href=""
+              href={getRelativeLocaleUrl(currentLocale ?? "", "services/ground")}
                 class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
               >
                 {i18n.CAROUSEL.C4.READ_MORE}</a
@@ -146,9 +142,7 @@ const i18n = getI18N({ currentLocale });
             </div>
           </div>
         </div>
-        
       </div>
-      
     </div>
   </div>
 </div>

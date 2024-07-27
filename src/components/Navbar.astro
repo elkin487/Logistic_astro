@@ -14,20 +14,12 @@ interface Props {
 }
 ---
 
-<!-- Navbar Start -->
-<!-- <div
-  class="container-fluid navbar-expand-lg navbar-light shadow"
-  style="background-color:#3586ff"
->
-  <div style="text-align: right;">
-    <i class="fa fa-envelope flex-shrink-0 p-2 text-white">
-      {ASSETS.email}
-    </i>
-    <i class="fa fa-phone flex-shrink-0 p-2 text-white">
-      {ASSETS.number}
-    </i>
-  </div>
-</div> -->
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Zain:wght@200;300;400;700;800;900&display=swap");
+  .font {
+    font-family: "Chakra Petch", sans-serif;
+  }
+</style>
 <nav
   class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0"
 >
@@ -35,7 +27,7 @@ interface Props {
     href="/"
     class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5"
   >
-    <h2 class="mb-2 text-white">{ASSETS.name}</h2>
+    <h2 class="mb-2 text-white font">{ASSETS.name}</h2>
   </a>
   <button
     type="button"
@@ -51,7 +43,7 @@ interface Props {
       <Links route={getRelativeLocaleUrl(currentLocale ?? "", "about")}
         >{t("nav.about")}</Links
       >
-   
+
       <div class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
           >{t("nav.service")}</a
@@ -97,12 +89,11 @@ interface Props {
         </div>
       </div>
       <Links route={getRelativeLocaleUrl(currentLocale ?? "", "contact")}
-      >{t("nav.contact")}</Links
-    >
+        >{t("nav.contact")}</Links
+      >
       <LanguagePicker />
     </div>
-    <h4 class="m-0 pe-lg-5 d-none d-lg-block">
-    </h4>
+    <h4 class="m-0 pe-lg-5 d-none d-lg-block"></h4>
   </div>
 </nav>
 <!-- Navbar End -->
